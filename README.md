@@ -1,6 +1,10 @@
 # java
 Machbase Sample Source Code in java language
 JDBC sample source and addtional APIs
+# environment variable
+```
+MACHBASE_HOME must be set
+```
 
 # build 
 ```
