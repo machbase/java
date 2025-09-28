@@ -17,6 +17,8 @@ build:
 	-@rm -rf *.class
 	javac -classpath $(CLASSPATH) -d . $(SAMPLE_SRC)
 
+run: build make_data_file run_sample1 run_sample2 run_sample3 run_sample4
+
 create_table:
 	machsql -s localhost -u sys -p manager -f createTable.sql
 

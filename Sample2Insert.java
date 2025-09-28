@@ -15,7 +15,7 @@ public class Sample2Insert
             sProps.put("user", "sys");
             sProps.put("password", "manager");
 
-            Class.forName("com.machbase.jdbc.driver");
+            Class.forName("com.machbase.jdbc.MachDriver");
             conn = DriverManager.getConnection(sURL, sProps);
 
         }

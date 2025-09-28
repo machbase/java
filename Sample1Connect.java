@@ -15,7 +15,7 @@ public class Sample1Connect
             sProps.put("user", "SYS");
             sProps.put("password", "MANAGER");
 
-            Class.forName("com.machbase.jdbc.driver");
+            Class.forName("com.machbase.jdbc.MachDriver");
             conn = DriverManager.getConnection(sURL, sProps);
         } 
 		catch ( ClassNotFoundException ex ) 
